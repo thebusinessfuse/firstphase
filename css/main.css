@@ -275,7 +275,7 @@ a.left-topbar-item:hover {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   height: 125px;
   padding-top: 25px;
@@ -291,11 +291,12 @@ a.left-topbar-item:hover {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
-.logo img {
+.logo a {
+  color: grey;
   max-width: 100%;
   max-height: 50%;
 }
@@ -312,6 +313,8 @@ a.left-topbar-item:hover {
   justify-content: flex-end;
   align-items: center;
 }
+
+
 
 .banner-header img {
   max-width: 100%;
@@ -398,7 +401,7 @@ a.left-topbar-item:hover {
 
 .main-menu > li > a {
   font-family: Roboto-Medium;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #222;
   
@@ -1867,4 +1870,9 @@ a.breadcrumb-item:hover {
 
 @media (max-width: 480px) {
   
+}
+
+
+.container .headh1 a {
+  padding: 0px 100px;
 }
